@@ -1,0 +1,12 @@
+name: DuckyFly
+author: ItsDucky
+version: 2.2
+api: [3.0.0-ALPHA10]
+description: Fly in survival without damaging players!
+main: ItsDucky\DuckyFly\Main
+
+commands:
+    fly:
+        description: "Activates or deactivates fly mode."
+        usage: /fly
+        permission: Ducky.fly
